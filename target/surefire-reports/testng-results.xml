@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="117600" started-at="2020-04-27T19:14:45 EDT" finished-at="2020-04-27T19:16:42 EDT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="117600" started-at="2020-04-27T19:14:45 EDT" finished-at="2020-04-27T19:16:42 EDT">
+      <class name="dutta.TestBootStrapDatePicker">
+        <test-method status="PASS" signature="donavigate()[pri:0, instance:dutta.TestBootStrapDatePicker@3fee9989]" name="donavigate" is-config="true" duration-ms="8993" started-at="2020-04-27T19:14:45 EDT" finished-at="2020-04-27T19:14:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- donavigate -->
+        <test-method status="PASS" signature="doMove()[pri:0, instance:dutta.TestBootStrapDatePicker@3fee9989]" name="doMove" duration-ms="393" started-at="2020-04-27T19:14:54 EDT" finished-at="2020-04-27T19:14:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doMove -->
+      </class> <!-- dutta.TestBootStrapDatePicker -->
+      <class name="dutta.TestDualListBox">
+        <test-method status="PASS" signature="donavigate()[pri:0, instance:dutta.TestDualListBox@7085bdee]" name="donavigate" is-config="true" duration-ms="10857" started-at="2020-04-27T19:15:03 EDT" finished-at="2020-04-27T19:15:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- donavigate -->
+        <test-method status="PASS" signature="doMove()[pri:0, instance:dutta.TestDualListBox@7085bdee]" name="doMove" duration-ms="5256" started-at="2020-04-27T19:15:14 EDT" finished-at="2020-04-27T19:15:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doMove -->
+      </class> <!-- dutta.TestDualListBox -->
+      <class name="dutta.TestWebtable1">
+        <test-method status="PASS" signature="donavigate()[pri:0, instance:dutta.TestWebtable1@5bcab519]" name="donavigate" is-config="true" duration-ms="12856" started-at="2020-04-27T19:16:29 EDT" finished-at="2020-04-27T19:16:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- donavigate -->
+        <test-method status="PASS" signature="doPrint()[pri:0, instance:dutta.TestWebtable1@5bcab519]" name="doPrint" duration-ms="519" started-at="2020-04-27T19:16:42 EDT" finished-at="2020-04-27T19:16:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPrint -->
+      </class> <!-- dutta.TestWebtable1 -->
+      <class name="dutta.TestDatePicker">
+        <test-method status="PASS" signature="donavigate()[pri:0, instance:dutta.TestDatePicker@73ad2d6]" name="donavigate" is-config="true" duration-ms="8334" started-at="2020-04-27T19:14:54 EDT" finished-at="2020-04-27T19:15:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- donavigate -->
+        <test-method status="PASS" signature="doMove()[pri:0, instance:dutta.TestDatePicker@73ad2d6]" name="doMove" duration-ms="783" started-at="2020-04-27T19:15:02 EDT" finished-at="2020-04-27T19:15:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doMove -->
+      </class> <!-- dutta.TestDatePicker -->
+      <class name="dutta.TestWebtable">
+        <test-method status="PASS" signature="doNavigate()[pri:0, instance:dutta.TestWebtable@6fd02e5]" name="doNavigate" is-config="true" duration-ms="23480" started-at="2020-04-27T19:16:05 EDT" finished-at="2020-04-27T19:16:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doNavigate -->
+        <test-method status="PASS" signature="doPrintTableData()[pri:0, instance:dutta.TestWebtable@6fd02e5]" name="doPrintTableData" duration-ms="651" started-at="2020-04-27T19:16:28 EDT" finished-at="2020-04-27T19:16:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPrintTableData -->
+        <test-method status="PASS" signature="doClose()[pri:0, instance:dutta.TestWebtable@6fd02e5]" name="doClose" is-config="true" duration-ms="92" started-at="2020-04-27T19:16:29 EDT" finished-at="2020-04-27T19:16:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClose -->
+      </class> <!-- dutta.TestWebtable -->
+      <class name="dutta.TestHighlight">
+        <test-method status="PASS" signature="doOpenBrowser()[pri:0, instance:dutta.TestHighlight@1ce92674]" name="doOpenBrowser" is-config="true" duration-ms="25610" started-at="2020-04-27T19:15:19 EDT" finished-at="2020-04-27T19:15:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doOpenBrowser -->
+        <test-method status="PASS" signature="dologin()[pri:0, instance:dutta.TestHighlight@1ce92674]" name="dologin" duration-ms="153" started-at="2020-04-27T19:15:45 EDT" finished-at="2020-04-27T19:15:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+      </class> <!-- dutta.TestHighlight -->
+      <class name="dutta.TestTab">
+        <test-method status="PASS" signature="donavigate()[pri:0, instance:dutta.TestTab@5700d6b1]" name="donavigate" is-config="true" duration-ms="13556" started-at="2020-04-27T19:15:45 EDT" finished-at="2020-04-27T19:15:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- donavigate -->
+        <test-method status="PASS" signature="doMove()[pri:0, instance:dutta.TestTab@5700d6b1]" name="doMove" duration-ms="2603" started-at="2020-04-27T19:15:59 EDT" finished-at="2020-04-27T19:16:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doMove -->
+        <test-method status="PASS" signature="doOpentab()[pri:0, instance:dutta.TestTab@5700d6b1]" name="doOpentab" duration-ms="2985" started-at="2020-04-27T19:16:01 EDT" finished-at="2020-04-27T19:16:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doOpentab -->
+        <test-method status="PASS" signature="doClose()[pri:0, instance:dutta.TestTab@5700d6b1]" name="doClose" is-config="true" duration-ms="439" started-at="2020-04-27T19:16:04 EDT" finished-at="2020-04-27T19:16:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClose -->
+      </class> <!-- dutta.TestTab -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

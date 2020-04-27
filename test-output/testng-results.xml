@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9230" started-at="2020-04-25T17:26:28 EDT" finished-at="2020-04-25T17:26:37 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9230" started-at="2020-04-25T17:26:28 EDT" finished-at="2020-04-25T17:26:37 EDT">
+      <class name="dutta.BootStrapDatePicker">
+        <test-method status="PASS" signature="donavigate()[pri:0, instance:dutta.BootStrapDatePicker@3224f60b]" name="donavigate" is-config="true" duration-ms="8854" started-at="2020-04-25T17:26:28 EDT" finished-at="2020-04-25T17:26:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- donavigate -->
+        <test-method status="PASS" signature="doMove()[pri:0, instance:dutta.BootStrapDatePicker@3224f60b]" name="doMove" duration-ms="324" started-at="2020-04-25T17:26:36 EDT" finished-at="2020-04-25T17:26:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doMove -->
+      </class> <!-- dutta.BootStrapDatePicker -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
