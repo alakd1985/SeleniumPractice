@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dutta.BootStrapDatePicker">
+      <class name="dutta.Testslide">
         <methods>
-          <include name="donavigate"/>
-          <include name="doMove"/>
+          <include name="doNavigate"/>
+          <include name="doSlide1"/>
         </methods>
-      </class> <!-- dutta.BootStrapDatePicker -->
+      </class> <!-- dutta.Testslide -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
