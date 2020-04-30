@@ -1,6 +1,5 @@
 package dutta;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -12,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Testsort {
+public class SortTest {
 	WebDriver driver;
 
 	@BeforeClass

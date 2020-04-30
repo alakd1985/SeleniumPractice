@@ -11,7 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Testslide {
+public class SlideTest {
 
 	public WebDriver driver;
 	@BeforeClass
