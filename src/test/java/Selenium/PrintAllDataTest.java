@@ -1,4 +1,4 @@
-package dutta;
+package Selenium;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
