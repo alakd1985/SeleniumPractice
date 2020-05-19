@@ -7,7 +7,6 @@ public class RicePriceTest {
 		food.stapleFood();
 		System.out.println(Food.foodPrice(100));
 		
-
 	}
 
 }
