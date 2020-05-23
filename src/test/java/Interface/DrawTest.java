@@ -1,13 +1,13 @@
 package Interface;
 
-public class DrawTest {
+public class DrawTest implements Drawable {
 
 	public static void main(String[] args) {
-		Drawable rectangle= new Circle();
-		rectangle.draw();
+		Drawable rectangle= new DrawTest();
+		Drawable.draw();
 		rectangle.picture();
 		Drawable rectangle1= new Rectangle();
-		rectangle1.draw();
+		Drawable.draw();
 		rectangle1.picture();
 	}
 

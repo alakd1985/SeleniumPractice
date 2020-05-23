@@ -9,8 +9,9 @@ public class BoxNumber1 {
 			for (j = 65; j <= 69; j++) {
 				System.out.print("" + (char) i);
 			}
+			System.out.println("");
 		}
-		System.out.println("\n");
+		
 
 	}
 
