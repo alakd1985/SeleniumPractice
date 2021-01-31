@@ -11,14 +11,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class HighlightTest {
 
 	public WebDriver driver;
-	
 
 	@BeforeClass
 	public void doOpenBrowser() {
-		System.setProperty("webdriver.chrome.driver", "driver//chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://demo.automationtesting.in/Register.html");
@@ -28,7 +29,7 @@ public class HighlightTest {
 	@Test
 	public void dologin() {
 		WebElement firstName = driver.findElement(By.xpath("//input[@ng-model='FirstName']"));
-		//he = new HighlightElement(driver);
+		// he = new HighlightElement(driver);
 		// he.doHighlight(firstName);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].setAttribute" + "('style','background: yellow; border: 2px solid red;');",

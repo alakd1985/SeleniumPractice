@@ -1,25 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="9" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8829" started-at="2020-05-15T14:34:23 EDT" finished-at="2020-05-15T14:34:31 EDT">
+  <suite name="Practice Test" duration-ms="112" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8829" started-at="2020-05-15T14:34:23 EDT" finished-at="2020-05-15T14:34:31 EDT">
-      <class name="dutta.WebtableTest">
-        <test-method status="PASS" signature="doNavigate()[pri:0, instance:dutta.WebtableTest@79be0360]" name="doNavigate" is-config="true" duration-ms="7953" started-at="2020-05-15T14:34:23 EDT" finished-at="2020-05-15T14:34:31 EDT">
+    <test name="Regression1" duration-ms="112" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+      <class name="Selenium.TestNgPractice">
+        <test-method status="PASS" signature="gotoNavigation()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="gotoNavigation" is-config="true" duration-ms="15" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doNavigate -->
-        <test-method status="PASS" signature="doPrintTableData()[pri:0, instance:dutta.WebtableTest@79be0360]" name="doPrintTableData" duration-ms="615" started-at="2020-05-15T14:34:31 EDT" finished-at="2020-05-15T14:34:31 EDT">
+        </test-method> <!-- gotoNavigation -->
+        <test-method status="PASS" signature="beforeNavigation()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="beforeNavigation" is-config="true" duration-ms="0" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doPrintTableData -->
-        <test-method status="PASS" signature="doClose()[pri:0, instance:dutta.WebtableTest@79be0360]" name="doClose" is-config="true" duration-ms="212" started-at="2020-05-15T14:34:31 EDT" finished-at="2020-05-15T14:34:31 EDT">
+        </test-method> <!-- beforeNavigation -->
+        <test-method status="PASS" signature="gotoHomePage()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="gotoHomePage" is-config="true" duration-ms="0" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doClose -->
-      </class> <!-- dutta.WebtableTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- gotoHomePage -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="test1" duration-ms="7" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="exitHomePage()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="exitHomePage" is-config="true" duration-ms="0" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitHomePage -->
+        <test-method status="PASS" signature="gotoHomePage()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="gotoHomePage" is-config="true" duration-ms="0" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoHomePage -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="test1" duration-ms="2" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="gotoHomePage()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="gotoHomePage" is-config="true" duration-ms="0" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoHomePage -->
+        <test-method status="PASS" signature="exitHomePage()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="exitHomePage" is-config="true" duration-ms="0" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitHomePage -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="test1" duration-ms="1" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="exitHomePage()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="exitHomePage" is-config="true" duration-ms="1" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitHomePage -->
+        <test-method status="PASS" signature="gotoHomePage()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="gotoHomePage" is-config="true" duration-ms="0" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoHomePage -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="test2" duration-ms="2" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="exitHomePage()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="exitHomePage" is-config="true" duration-ms="1" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitHomePage -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="test3" duration-ms="2" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="gotoHomePage()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="gotoHomePage" is-config="true" duration-ms="0" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoHomePage -->
+        <test-method status="PASS" signature="exitHomePage()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="exitHomePage" is-config="true" duration-ms="0" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitHomePage -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="test6" duration-ms="1" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="gotoHomePage()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="gotoHomePage" is-config="true" duration-ms="0" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoHomePage -->
+        <test-method status="PASS" signature="exitHomePage()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="exitHomePage" is-config="true" duration-ms="2" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitHomePage -->
+        <test-method status="PASS" signature="test7()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="test7" duration-ms="2" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method status="PASS" signature="gotoHomePage()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="gotoHomePage" is-config="true" duration-ms="0" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoHomePage -->
+        <test-method status="PASS" signature="exitHomePage()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="exitHomePage" is-config="true" duration-ms="2" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitHomePage -->
+        <test-method status="PASS" signature="afterNavigation()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="afterNavigation" is-config="true" duration-ms="6" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterNavigation -->
+        <test-method status="PASS" signature="exitNavigation()[pri:0, instance:Selenium.TestNgPractice@6c49835d]" name="exitNavigation" is-config="true" duration-ms="0" started-at="2021-01-15T18:31:36 EST" finished-at="2021-01-15T18:31:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitNavigation -->
+      </class> <!-- Selenium.TestNgPractice -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Practice Test -->
 </testng-results>

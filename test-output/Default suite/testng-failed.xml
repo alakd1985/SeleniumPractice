@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dutta.Testslide">
+      <class name="Selenium.SlideTest">
         <methods>
-          <include name="doNavigate"/>
           <include name="doSlide1"/>
+          <include name="doNavigate"/>
+          <include name="doSlide"/>
         </methods>
-      </class> <!-- dutta.Testslide -->
+      </class> <!-- Selenium.SlideTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -9,31 +9,30 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class DualListBoxTest {
-WebDriver driver;
-	
+	WebDriver driver;
+
 	@BeforeClass
-	public void donavigate()
-	{
-		System.setProperty("webdriver.chrome.driver", "driver//chromedriver.exe");
+	public void donavigate() {
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.seleniumeasy.com/test/bootstrap-dual-list-box-demo.html");
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	}
-	
+
 	@Test
-	public void doMove() throws InterruptedException
-	{
+	public void doMove() throws InterruptedException {
 		driver.findElement(By.name("SearchDualList")).sendKeys("Morbi leo risus");
 		driver.findElement(By.xpath("//span[@class='glyphicon glyphicon-chevron-right']")).click();
 		Thread.sleep(5000);
-		
+
 	}
-	
+
 	@AfterClass
-	public void doClose()
-	{
+	public void doClose() {
 		driver.quit();
 	}
 }
